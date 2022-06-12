@@ -74,3 +74,24 @@ console.log(`
 else{
    console.log("Tera Bapp ya chod gya tha kya 10 20 crore");
 }
+
+// Switch and Case
+var user ="admin"
+switch (user) {
+   case  "admin": console.log("Hello admin")
+      
+      break;
+      case  "not": console.log("Hello not admin")
+      
+      break;
+
+   default:
+      break;
+}
+
+
+// Functions  in javasript
+function greet(){
+   return "Hello Lovely Indian"
+}
+console.log(greet())
