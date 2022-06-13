@@ -95,3 +95,10 @@ function greet(){
    return "Hello Lovely Indian"
 }
 console.log(greet())
+
+var ab=3;
+function  incri(){
+   ab++;
+   console.log(ab);
+}
+incri()
