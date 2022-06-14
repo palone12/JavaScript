@@ -43,3 +43,10 @@ console.log(array)
 array .splice(2,3)
 console.log(array)
 console.log(array.splice(-1));
+
+
+// Slice - return  selected element from array
+
+const arr3= [2,3,4,5,665,6,7,8,,9]
+arr3.sort()
+console.log(arr3)
