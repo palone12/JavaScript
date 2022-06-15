@@ -175,3 +175,38 @@ console.log(result)
 const temp = ["Bugati" ,"Ferrari", "Porsche" , "Gulia"]
 var reuslt2 = temp.fill("Alto" ,2,3) // Filling array  with start and and end and  end is exclusive
 console.log(reuslt2)
+
+
+//TODO 
+// Arrow funstions
+// function printName(myName){
+//     console.log(myName)
+// }
+// console.log(printName("Pranay"))
+
+var xxx = (myName)=>{
+    console.log(myName)
+}
+console.log(xxx("Pranya"))
+
+
+// Filter in Array 
+const Array= [ 10,20,3,6,7,5484,541,84,5]
+var result = Array.filter((num)=>(num%2===0))
+console.log(result)
+
+
+//Slicing and Splicing in Array
+//Slice means take some part of original array 
+//for example
+const  users=["Pranay " ,"Naman ", " Vaibhav" ,"Prajwal" , "Prasad"]
+console.log(users.slice(1,3)) //this is slicing with start and end index where end index is not inclusive
+// Another way of slicing  -- only giving start value
+console.log(users.slice(1)) // Here given value is exclusive
+
+//Splicing in Arrays
+const friends =["Tim", "sim ","Lin","gin " ,"oldmonk"]
+//friends.splice(1,3,"Gandus") //Start counting from index 1 and count 3 element and replace them with given string
+// Other ways
+console.log(friends.splice(1,3,"hi" ,"chutiya")) //start countuing fromn 1 and replace the count  no of element and put givrn  strings in it 
+console.log(friends)
