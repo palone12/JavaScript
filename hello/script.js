@@ -140,6 +140,8 @@
 // abc()
 
 //Functions Continued
+
+//Function in varaible
 var  getUserRole=function (name,role){
     switch (role) {
         case "admin":
@@ -158,3 +160,18 @@ var  getUserRole=function (name,role){
 console.log(getUserRole("Pranay" ,"admin"))
 var getData=getUserRole("Pranay" ,"admin")
 console.log(getData)
+
+
+//Arrays 
+
+//Declaration 
+var arr= [2,3,4,56,67,7]
+console.log(arr[2]) // aAccessing the element 
+console.log(arr.indexOf(2)); // Accensing Index of the element present in Array
+console.log(arr.length) // Gives the length of the array
+console.log(arr.fill("Chiron"));
+var result =  arr.fill("Maruti",3) //  Filling array with start index
+console.log(result)
+const temp = ["Bugati" ,"Ferrari", "Porsche" , "Gulia"]
+var reuslt2 = temp.fill("Alto" ,2,3) // Filling array  with start and and end and  end is exclusive
+console.log(reuslt2)
