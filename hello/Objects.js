@@ -18,3 +18,29 @@ console.log(user.Role)
 
 //table
 console.table(user)
+
+
+// TODO Methods inside the objects
+var  UdemyUser = {
+     FullName : "Pranay Alone",
+     College: 'Dr. Babasaheb Ambedkar Technological University',
+     CourseList : [] ,
+     buyCourse: function(courseNameTo){
+         this.CourseList.push(courseNameTo)
+     },
+     courseCount: function(){
+        return `Total no of courses purchased is ${this.CourseList.length}`
+     },
+     Info:function(){
+        console.table(this)
+       
+     
+
+     }
+     
+}
+console.log(UdemyUser.courseCount())
+UdemyUser.buyCourse("Reactjs")
+UdemyUser.buyCourse("Angular")
+console.log(UdemyUser.courseCount())
+UdemyUser.Info()

@@ -190,13 +190,13 @@
 // console.log(xxx("Pranya"))
 
 
-// // Filter in Array 
+// // TODO Filter in Array 
 // const Array= [ 10,20,3,6,7,5484,541,84,5]
 // var result = Array.filter((num)=>(num%2===0))
 // console.log(result)
 
 
-// //Slicing and Splicing in Array
+// //TODO Slicing and Splicing in Array
 // //Slice means take some part of original array 
 // //for example
 // const  users=["Pranay " ,"Naman ", " Vaibhav" ,"Prajwal" , "Prasad"]
@@ -204,7 +204,7 @@
 // // Another way of slicing  -- only giving start value
 // console.log(users.slice(1)) //TODO Here given value is exclusive
 
-// //Splicing in Arrays
+// //TODO Splicing in Arrays
 // const friends =["Tim", "sim ","Lin","gin " ,"oldmonk"]
 // //friends.splice(1,3,"Gandus") //Start counting from index 1 and count 3 element and replace them with given string
 // // Other ways
@@ -227,3 +227,9 @@ console.log(getMyName())
 var result =[2,4,5,7].every((num)=>(num>4)); //TODO   every return the boolean result
 
 console.log(result)
+
+
+// TODO MAP 
+const arr= [1,2,3,4,6]
+const res = arr.map((num)=> num*10)
+console.log(res)
